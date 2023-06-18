@@ -1,0 +1,146 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Personal Site</title>
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
+            <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        </head>
+
+        <body>
+            <section>
+                <nav>
+                    <a href="/" class="logo">Software Developer</a>
+                    <ul>
+                        <li><a href="/" class="active">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://github.com/satyamsaha443" target="blank">Projects</a></li>
+                    </ul>
+                    <div class="toggle"></div>
+                </nav>
+                <div class="text-container">
+                    <p>Hello,</p>
+                    <p>Satyam here</p>
+                    <p>I am a FullStack Developer <br> </p>
+                    <a href="contact.html"><button class="hire-btn">Hire me</button></a>
+                    <button data-modal-target="#modal" class="down-cv">Download CV</button>
+                </div>
+                <img  src="" class="model" alt="">
+            </section>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">About My CV</div>
+                    <button data-close-btn class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Hello,
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <div class="about-container">
+                <img src="images/.comments/Macbook pro 14 _ Apple laptop macbook, Macbook pro, Apple laptop.png" class="abotimg" alt="">
+                <div class="about-text">
+                    <p>About me!</p>
+                    <p>Backend Developer,</p>
+                    <p>Hello, My name is Satyam Saha. I am a FullStack Developer . If you have any
+                        project or if
+                        you want to make a software for your business contact me. I take my time to finish my work as
+                        soon as
+                        possible. You'll really like my work, if you don't I can make changes untill it meets your
+                        satisfaction.
+                    </p>
+                    <p>I am also an upcoming AI Developer majoring on DeepLearning concepts and Generative AI too. If you have
+                        any project or any website you would like to be done faster don't hesitate to contact me.</p>
+                    <a href="contact.html"><button>Hire me</button></a>
+                    <button data-modal-target="#modal">Download CV</button>
+                </div>
+            </div>
+            <div class="services">
+                <div class="services-text">
+                    <p>Services</p>
+                    <p>Services Required</p>
+                    <p>If you have any project or if
+                        you want to make a software for your business contact me. I take my time to finish my work as
+                        soon as
+                        possible. You'll really like my work, if you don't I can make changes untill it meets your
+                        satisfaction.
+                    </p>
+                </div>
+                <div class="box-container">
+                    <div class="box-1">
+                        <span>1</span>
+                        <p class="heading">Web Development</p>
+                        <p class="details">I can design you a fully responsive website with Html, Css, React,
+                            Javascript,
+                            Bootstrap4 and Django for the backend with any kind of database you would prefer but mainly
+                            postgress</p>
+                        <button>Read More</button>
+                    </div>
+
+                    <div class="box-2">
+                        <span>2</span>
+                        <p class="heading">Software Development</p>
+                        <p class="details">I can design you a fully responsive Software with Html, Css, React,
+                            Javascript,
+                            Bootstrap4 and Django for the backend with any kind of database you would prefer but mainly
+                            postgress</p>
+                        <button>Read More</button>
+                    </div>
+
+                    <div class="box-3">
+                        <span>3</span>
+                        <p class="heading">AI ML </p>
+                        <p class="details">I can make any AI Ml website with all the modern AI technologies and also using Generative AI technologies.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-me">
+                <p>If You Have Any Project In Your Mind!</p>
+                <a href="contact.html"><button> Contact Me</button></a>
+            </div>
+            <footer>
+                <p>FullStack Developer</p>
+                <p>I am a FullStack Developer. If you have any project or if
+                    you want to make a software for your business contact me. I take my time to finish my work as soon
+                    as
+                    possible. You'll really like my work, if you don't I can make changes untill it meets your
+                    satisfaction.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ashim.ghosh.77582/" target="blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <!-- <a href="https://twitter.com/MayankA65132148" target="blank"><i class="fab fa-twitter"></i></a> -->
+                <a href="https://www.instagram.com/satyamsaha443/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satyam-saha-230986215/" target="blank"><i
+                        class="fab fa-linkedin"></i></a>
+                   
+                  
+
+                </div>
+                    <p class="copyright">Satyam &copy;Saha &trade;</p>
+            </footer>
+            <div class="a-social-b">
+                <a href="https://www.facebook.com/ashim.ghosh.77582/" target="blank"><i
+                    class="fab fa-facebook-f"></i></a>
+                <!-- <a href="https://twitter.com/MayankA65132148" target="blank"><i class="fab fa-twitter"></i></a> -->
+                <a href="https://www.instagram.com/satyamsaha443/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satyam-saha-230986215/" target="blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <script type="text/javascript" src="js/JQuery.js"></script>
+            <script type="text/javascript" src="js/main.js" defer></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('.toggle').click(function () {
+                        $('.toggle').toggleClass('active')
+                        $('nav').toggleClass('active')
+                    })
+                })
+            </script>
+        </body>
+
+        </html>
